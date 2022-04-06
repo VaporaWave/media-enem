@@ -1,0 +1,124 @@
+body{
+    background-color: #000029;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formulario{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 30%;
+    margin: 0 auto;
+    
+
+    
+    border: 3px solid orange;
+    padding: 0% 3% 0% 3%;
+    border-radius: 2%;
+}
+
+.aprovado{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 30%;
+    margin: 0 auto;
+    grid-gap: 5px;
+    border: 3px solid #35ff10;
+    transition: 0.5s;
+    padding: 0% 3% 0% 3%;
+    border-radius: 2%;
+}
+
+.reprovado{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 30%;
+    margin: 0 auto;
+    grid-gap: 5px;
+    border: 3px solid #ff1010;
+    transition: 0.5s;
+    padding: 0% 3% 0% 3%;
+    border-radius: 2%;
+}
+
+#natu, #huma, #codi, #mate, #reda{
+    height: 40px;
+}
+
+#reda{
+    margin-bottom: 30px;
+}
+
+.titulo{
+    text-align: center;
+    color: orange;
+    font-family: monospace;
+}
+
+.titulo_reprovado{
+    text-align: center;
+    color: #ff1010;
+    font-family: monospace;
+    transition: 0.5s;
+}
+.titulo_aprovado{
+    text-align: center;
+    color: #35ff10;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+.st-botao{
+    display: grid;
+    width: 30%;
+    margin: 0 auto;
+   padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.st-botao-aprovado{
+    display: grid;
+    width: 30%;
+    margin: 0 auto;
+   padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #35ff10;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.st-botao-reprovado{
+    display: grid;
+    width: 30%;
+    margin: 0 auto;
+   padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #ff1010;
+    color: #ffff;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+

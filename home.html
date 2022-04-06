@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Enem</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main">
+        <form class="formulario" action="aula.js:clicada()">
+                <h1 class="titulo">Prova</h1>
+            <input type="text" id="natu" required="required" maxlength="3" placeholder="Ciencias da Natureza"/>
+            <input type="text" id="huma" required="required" maxlength="3" placeholder="Ciencias Humanas"/>
+            <input type="text" id="codi" required="required" maxlength="3" placeholder="Linguagens e Codigos"/>
+            <input type="text" id="mate" required="required" maxlength="3" placeholder="Mátematica"/>
+            <input type="text" id="reda" required="required" maxlength="3" placeholder="Redaçao"/>
+            <button type="submit" id="botao" class="st-botao">Vai!!</button>
+            
+            <span class="result"></span>
+        </form>
+    </div>
+</body>
+</html>
+<script src="aula.js"></script>
